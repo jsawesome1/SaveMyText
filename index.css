@@ -1,5 +1,21 @@
-header {
-    font-size: 20
-    color:lightred
-
+html {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    width: 100%;
+    font : 20;
+    background:lightblue;
+    padding: 0px;
+    margin: 0px;
+    border-width: 2px;
+    border-bottom-color: darkturquoise;
+}
+.spacer {
+    padding-bottom: 15px;
+}
+.centered {
+    text-align: center;
+}
+input{
+    width: 35%;
 }
