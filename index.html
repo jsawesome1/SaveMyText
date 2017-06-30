@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html>
      <head>
-       <title>Save My Text</title>
+         <title>Save My Text</title>
          <link rel="stylesheet" href="index.css">
+         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     </head>
     <body>
-        <header>Save My Text</header>
-        <header>Website</header>
-        <p>Hey
-        </p>
+        <header>
+            <h1>Save My Text</h1>
+        </header>
+        <div class="spacer"></div>
+        <ol>
+            <li>Save some text</li>
+            <li>Choose a password</li>
+            <li>Share the password</li>
+            <li>Or not</li>
+            <!--Alternate third step: "Text can be viewed by anybody with that password"-->
+        </ol>
+        <div class="spacer"></div>
+        <form class="centered" action="/serverName.php">
+            Text: <input type="text" name="text"><br>
+            Password: <input type="text" name="Password"><br>
+            <input type="submit" value="Submit">
+        </form>
     </body>
 </html>
