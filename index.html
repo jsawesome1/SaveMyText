@@ -12,14 +12,16 @@
         <div class="spacer"></div>
         <ol>
             <li>Save some text</li>
+            <li>Choose a title</li>
             <li>Choose a password</li>
-            <li>Share the password</li>
+            <li>Share it</li>
             <li>Or not</li>
-            <!--Alternate third step: "Text can be viewed by anybody with that password"-->
+            <!--Alternate step: "Text can be viewed by anybody with that password"-->
         </ol>
         <div class="spacer"></div>
         <form class="centered" action="/serverName.php">
-            Text: <input type="text" name="text"><br>
+            Title: <input type="text" name="title"><br>
+            <textarea name="text">Put your text here</textarea><br>
             Password: <input type="text" name="Password"><br>
             <input type="submit" value="Submit">
         </form>
